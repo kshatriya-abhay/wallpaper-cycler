@@ -4,6 +4,11 @@ A small Android app that changes your wallpaper on a schedule. Pick a folder of 
 
 It sets an ordinary static wallpaper, so Android updates its Material You colours as usual. Nothing runs between changes: there's no live wallpaper or background service, just a scheduled job.
 
+<p align="center"><img src="docs/screenshot.png" alt="Wallpaper Cycler: an Enable switch, the chosen folder with 7 images, frequency buttons set to 12 hours, and a Change now button" width="300"></p>
+
+## Download
+Get the APK from the [latest release](https://github.com/kshatriya-abhay/wallpaper-cycler/releases/latest). The release notes list its SHA-256 and the signing certificate's.
+
 ## Features
 - One screen: an on/off switch, a folder, the frequency, and a "Change now" button.
 - Works offline with local images. The app has no internet permission.
