@@ -1,0 +1,18 @@
+[tools]
+java = "temurin-21"   # JDK for Gradle/AGP
+
+[env]
+ANDROID_HOME = "{{env.HOME}}/Android/Sdk"
+_.path = [
+  "{{env.HOME}}/Android/Sdk/cmdline-tools/latest/bin",
+  "{{env.HOME}}/Android/Sdk/platform-tools",
+]
+
+[tasks.build]
+run = "./gradlew --no-daemon assembleDebug"
+
+[tasks.test]
+run = "./gradlew --no-daemon testDebugUnitTest"
+
+[tasks.install]
+run = "./gradlew --no-daemon installDebug"
